@@ -1,1 +1,3 @@
 # Stock-AI-train
+
+IDK :)
