@@ -1,0 +1,34 @@
+# This file is for the ai_train directory.
+# It has been cleaned of Conda-specific internal packages.
+#
+# IMPORTANT: You must add your core AI libraries to this list.
+# For example:
+# torch
+# numpy
+# pandas
+# scikit-learn
+
+# --- Common Libraries (kept from your list) ---
+certifi
+charset-normalizer
+cryptography
+idna
+jsonpatch
+jsonpointer==2.1
+markdown-it-py
+mdurl
+packaging
+platformdirs
+pydantic
+pydantic_core
+Pygments
+requests
+rich
+ruamel.yaml
+ruamel.yaml.clib
+setuptools==78.1.1
+tqdm
+typing-inspection
+typing_extensions
+urllib3
+wheel==0.45.1

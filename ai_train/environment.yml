@@ -1,0 +1,69 @@
+# environment.yml
+# This file defines the Conda environment for AI training and data processing.
+# Place this file in your root project directory (e.g., stock_ai/)
+
+name: stock-ai-train-env
+
+channels:
+  - intel
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core Python version
+  - python=3.10
+
+  # PyTorch for Intel GPU (XPU)
+  - pytorch-xpu
+  - intel-extension-for-pytorch
+
+  # vLLM library
+  - vllm
+  
+  # Core libraries for AI and data processing
+  - numpy
+  - pandas
+  - scikit-learn
+
+  # Backend and data/news pulling dependencies
+  - fastapi
+  - uvicorn
+  - yfinance
+  - matplotlib
+
+  # Other necessary libraries translated from your list
+  - annotated-types
+  - boltons
+  - brotlicffi
+  - certifi
+  - cffi
+  - charset-normalizer
+  - cryptography
+  - distro
+  - frozendict
+  - idna
+  - jsonpatch
+  - jsonpointer=2.1
+  - markdown-it-py
+  - mdurl
+  - packaging
+  - platformdirs
+  - pluggy
+  - pycosat
+  - pycparser
+  - pydantic
+  - pydantic_core
+  - pygments
+  - pysocks
+  - requests
+  - rich
+  - ruamel.yaml
+  - ruamel.yaml.clib
+  - setuptools=78.1.1
+  - tqdm
+  - truststore
+  - typing-inspection
+  - typing_extensions
+  - urllib3
+  - wheel=0.45.1
+  - zstandard

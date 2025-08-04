@@ -1,0 +1,7 @@
+docker run -d -p 8000:8000 --name xpu-seanjr stock-ai-server
+
+
+docker logs xpu-seanjr
+
+
+docker stop xpu-seanjr
