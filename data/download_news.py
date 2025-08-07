@@ -43,7 +43,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Your hardcoded API key
-    API_KEY = "be1a3c72a7e5438e9146fb9cd3ed757b" 
+    API_KEY = " 
     TICKER = args.ticker.upper()
     
     news_df = get_stock_news(API_KEY, TICKER, days_ago=30)
